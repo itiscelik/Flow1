@@ -1,0 +1,149 @@
+body{
+    font-family: Arial;
+    padding: 10px;
+    background: ghostwhite;
+}
+
+#header{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+
+.nav-link{
+    font-size: 20px;
+    color: rgb(235, 88, 88);
+}
+
+.navbar{
+    background-color: rgb(235, 88, 88);
+    color: white;
+}
+
+.navbar-brand{
+    background-color: rgb(235, 88, 88);
+}
+
+.btn{
+    background-color: white;
+    color: rgb(235, 88, 88);
+    margin: 1px;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(235, 88, 88);
+    color: white;
+    margin: 1px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h3{
+    color: #95a5a6;
+    font-weight: 400;
+}
+
+h4{
+    color: #95a5a6;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+p{
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.centered{
+    text-align: center;
+}
+
+.responsive-img{
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(68, 158, 1280);
+    border-radius: 50%;
+}
+
+#headerwrap h1{
+    background: rgba(54, 25, 25, .04);
+    padding-top: 0;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.card{
+    background-color: rgb(235, 88, 88);
+    color: lightcyan;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.card h1{
+    color: white;
+}
+
+.card-img-top {
+    width: %100;
+}
+
+#second-header{
+    margin-top: 60px;
+}
+
+#contact {
+    padding: 80px 0;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px 12px;
+    border-radius: 10px;
+    box-shadow: rgb(124, 128, 118);
+    font-size: 14px;
+    height:auto;
+    width: 100%;
+}
+
+.contact-form .form-send{
+    text-align: center;
+}
+
+.contact-form .form-send button{
+    background-color: white;
+    color: rgb(235, 88, 88);
+    border-radius: 10px;
+    padding: 12px 30px;
+    transition: 0.4s;
+}
+
+.contact-form.form-send button:hover {
+    background: rgb(235, 88, 88);
+    color: white;
+}
+
+#copyrights {
+    text-align: right;
+    background: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#copyrights p{
+    margin-bottom: auto;
+    color:black;
+}
