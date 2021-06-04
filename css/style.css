@@ -1,16 +1,20 @@
-.body {
-    top: 0px;
-    left: 0px;
-    width: 1440px;
-    height: 1400px;
-    background: #F9F9FB 0% 0% no-repeat padding-box;
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    width: 100%;
     opacity: 1;
+    margin: auto;
+    /* height: 100%; */
+    /* overflow: hidden;  */
+    background: #F9F9FB 0% 0% no-repeat padding-box;
 }
 
 .navbar {
     top: 0px;
     left: 0px;
-    width: 1440px;
     height: 113px;
     background: transparent linear-gradient(90deg, #748EFC 0%, #3B4D9A 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -19,89 +23,61 @@
 .navbar_text {
     top: 38px;
     left: 567px;
-    width: 306px;
     height: 38px;
-    font: var(--unnamed-font-style-normal) normal 900 32px/40px Roboto;
-    text-align: center;
-    font: normal normal 900 32px/40px Roboto;
-    letter-spacing: 0.1px;
+    font-size: 48px;
+    margin: auto;
+    letter-spacing: 1px;
     color: #FFFFFF;
     opacity: 1;
 }
 
 .page_header {
-    top: 177px;
-    left: 165px;
-    width: 160px;
-    height: 33px;
-    font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-28)/var(--unnamed-line-spacing-30) Roboto;
-    letter-spacing: var(--unnamed-character-spacing-0);
-    text-align: left;
-    font: normal normal bold 28px/30px Roboto;
-    letter-spacing: 0px;
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
     color: #191B2C;
     opacity: 1;
+    margin: 4px 0px;
 }
 
 .createpage_header {
-    top: 226px;
-    left: 643px;
-    width: 154px;
-    height: 25px;
-    font: var(--unnamed-font-style-normal) normal bold 22px/var(--unnamed-line-spacing-30) Roboto;
-    letter-spacing: var(--unnamed-character-spacing-0);
-    text-align: center;
-    font: normal normal bold 22px/30px Roboto;
-    letter-spacing: 0px;
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
     color: #191B2C;
     opacity: 1;
+    margin: 4px 0px;
 }
 
 .create_button {
-    top: 167px;
-    left: 1020px;
-    width: 255px;
-    height: 53px;
+    padding: 5px;
     border: 1px solid #8599A8;
-    border-radius: 5px;
+    border-radius: 8px;
+    float: right;
     opacity: 1;
 }
 
 .create_text {
-    top: 183px;
-    left: 1066px;
-    width: 164px;
-    height: 21px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 18px/var(--unnamed-line-spacing-30) Roboto;
-    letter-spacing: var(--unnamed-character-spacing-0);
-    text-align: center;
-    font: normal normal normal 18px/30px Roboto;
-    letter-spacing: 0px;
+    margin: auto;
+    padding: 5px;
+    font-size: 17px;
     color: #8599A8;
     opacity: 1;
 }
 
 .card {
-    top: 259px;
-    left: 165px;
-    width: 350px;
     height: 400px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 10px 25px #00000008;
-    border-radius: 10px;
+    border-radius: 8px;
     opacity: 1;
 }
 
-.detailpage_card {
-    top: 163px;
-    left: 165px;
-    width: 1125px;
+/* .detailpage_card {
     height: 400px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 10px 25px #00000008;
-    border-radius: 10px;
+    border-radius: 8px;
     opacity: 1;
-}
+} */
 
 .createpage_card {
     top: 163px;
@@ -119,17 +95,19 @@
     left: 283px;
     width: 115px;
     height: 115px;
-    background: transparent url('img/970c4c4d9c3acd79d3b4e3175d913b22.png') 0% 0% no-repeat padding-box;
+    margin: auto;
+    border-radius: 50%;
     box-shadow: 0px 10px 20px #00000029;
     opacity: 1;
 }
 
 .detailpage_photo {
-    top: 204px;
-    left: 663px;
+    top: 300px;
+    left: 283px;
     width: 115px;
     height: 115px;
-    background: transparent url('img/5d883c3b777778c5db056e064dc7d635.png') 0% 0% no-repeat padding-box;
+    margin: auto;
+    border-radius: 50%;
     box-shadow: 0px 10px 20px #00000029;
     opacity: 1;
 }
@@ -137,27 +115,21 @@
 .card_username {
     top: 454px;
     left: 276px;
-    width: 129px;
     height: 25px;
-    font: var(--unnamed-font-style-normal) normal bold 22px/var(--unnamed-line-spacing-30) Roboto;
-    letter-spacing: var(--unnamed-character-spacing-0);
-    text-align: left;
-    font: normal normal bold 22px/30px Roboto;
-    letter-spacing: 0px;
+    font-size: 22px;
+    font-weight: bold;
+    margin: auto;
     color: #191B2C;
     opacity: 1;
 }
 
 .detailpage_username {
-    top: 358px;
-    left: 653px;
-    width: 134px;
+    top: 454px;
+    left: 276px;
     height: 25px;
-    font: var(--unnamed-font-style-normal) normal bold 22px/var(--unnamed-line-spacing-30) Roboto;
-    letter-spacing: var(--unnamed-character-spacing-0);
-    text-align: center;
-    font: normal normal bold 22px/30px Roboto;
-    letter-spacing: 0px;
+    font-size: 22px;
+    font-weight: bold;
+    margin: auto;
     color: #191B2C;
     opacity: 1;
 }
@@ -165,26 +137,20 @@
 .card_email {
     top: 493px;
     left: 247px;
-    width: 186px;
     height: 21px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 18px/var(--unnamed-line-spacing-30) Roboto;
-    letter-spacing: var(--unnamed-character-spacing-0);
-    text-align: left;
-    font: normal normal normal 18px/30px Roboto;
+    font-size: 16px;
+    margin: auto;
     letter-spacing: 0px;
     color: #8A8B8D;
     opacity: 1;
 }
 
 .detailpage_email {
-    top: 397px;
-    left: 627px;
-    width: 186px;
+    top: 493px;
+    left: 247px;
     height: 21px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 18px/var(--unnamed-line-spacing-30) Roboto;
-    letter-spacing: var(--unnamed-character-spacing-0);
-    text-align: left;
-    font: normal normal normal 18px/30px Roboto;
+    font-size: 16px;
+    margin: auto;
     letter-spacing: 0px;
     color: #8A8B8D;
     opacity: 1;
@@ -194,6 +160,7 @@
     top: 560px;
     left: 252px;
     width: 177px;
+    margin: auto;
     height: 53px;
     border: 1px solid #8599A8;
     border-radius: 5px;
@@ -214,21 +181,19 @@
 .card_text {
     top: 576px;
     left: 313px;
-    width: 56px;
     height: 21px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 18px/var(--unnamed-line-spacing-30) Roboto;
-    letter-spacing: var(--unnamed-character-spacing-0);
-    text-align: center;
-    font: normal normal normal 18px/30px Roboto;
+    font-size: 16px;
+    margin: auto;
     letter-spacing: 0px;
     color: #8599A8;
     opacity: 1;
 }
 
 .detailpage_button {
-    top: 464px;
-    left: 632px;
+    top: 560px;
+    left: 252px;
     width: 177px;
+    margin: auto;
     height: 53px;
     border: 1px solid #8599A8;
     border-radius: 5px;
@@ -236,7 +201,7 @@
 }
 
 .detailpage_button:hover {
-    top: 464px;
+    top: 560px;
     left: 632px;
     width: 177px;
     height: 53px;
@@ -247,14 +212,11 @@
 }
 
 .detailpage_text {
-    top: 480px;
-    left: 700px;
-    width: 40px;
+    top: 576px;
+    left: 313px;
     height: 21px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 18px/var(--unnamed-line-spacing-30) Roboto;
-    letter-spacing: var(--unnamed-character-spacing-0);
-    text-align: center;
-    font: normal normal normal 18px/30px Roboto;
+    font-size: 16px;
+    margin: auto;
     letter-spacing: 0px;
     color: #8599A8;
     opacity: 1;
@@ -362,7 +324,9 @@
     left: 518px;
     width: 55px;
     height: 55px;
+    margin-left: 430px;
     border: 1px solid #D6DCE3;
+    border-radius: 50%;
     opacity: 1;
 }
 
@@ -381,10 +345,11 @@
     width: 55px;
     height: 55px;
     border: 1px solid #D6DCE3;
+    border-radius: 50%;
     opacity: 1;
 }
 
-.first_page:hover {
+.first_page:active {
     top: 1170px;
     left: 606px;
     width: 55px;
@@ -399,10 +364,11 @@
     width: 55px;
     height: 55px;
     border: 1px solid #D6DCE3;
+    border-radius: 50%;
     opacity: 1;
 }
 
-.second_page:hover {
+.second_page:active {
     top: 1170px;
     left: 606px;
     width: 55px;
@@ -417,10 +383,11 @@
     width: 55px;
     height: 55px;
     border: 1px solid #D6DCE3;
+    border-radius: 50%;
     opacity: 1;
 }
 
-.third_page:hover {
+.third_page:active {
     top: 1170px;
     left: 606px;
     width: 55px;
@@ -435,6 +402,7 @@
     width: 55px;
     height: 55px;
     border: 1px solid #D6DCE3;
+    border-radius: 50%;
     opacity: 1;
 }
 
@@ -448,10 +416,19 @@
 }
 
 .footer {
-    top: 1326px;
-    left: 0px;
-    width: 1440px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     height: 74px;
+    background: #040404 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.detailpage_footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background: #040404 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -459,12 +436,10 @@
 .footer_text {
     top: 1352px;
     left: 659px;
-    width: 122px;
     height: 21px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 18px/var(--unnamed-line-spacing-30) Roboto;
-    letter-spacing: var(--unnamed-character-spacing-0);
-    text-align: left;
-    font: normal normal normal 18px/30px Roboto;
+    text-align: center;
+    margin-top: 4px;
+    padding: 25px;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 0.4;

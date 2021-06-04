@@ -5,58 +5,149 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <title>Flow 1</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </head>
 
 <body>
-
-    <div class="body">
+    <div>
         <nav class="navbar">
             <p class="navbar_text">
                 Pixelplus Case Study
             </p>
         </nav>
+    </div>
 
-        <span style="float: left">
-            <p class="page_header">
-                All Members
-            </p>
-        </span>
-
-        <span style="float:right">
-            <button class="create_button">
-                <p class="create_text">
-                    Create New Member
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <p class="page_header">
+                    All Members
                 </p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <button class="create_button">
+                    <a class="create_text" href="createpage.html">
+                        Create New Member
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="card-deck">
+            <div class="card">
+                <img src="img/instructor.jpeg" class="card_photo" alt="...">
+                <p class="card_username">George Bluth</p>
+                <p class="card_email">george.bluth@reqres.in</p>
+                <button class="card_button">
+                    <a class="card_text" href="george-detail.html">
+                        Review
+                    </a>
+                </button>
+            </div>
+            <div class="card">
+                <img src="img/instructor.jpeg" class="card_photo" alt="...">
+                <p class="card_username">Janet Weaver</p>
+                <p class="card_email">janet.weaver@reqres.in</p>
+                <button class="card_button">
+                    <a class="card_text" href="janet-detail.html">
+                        Review
+                    </a>
+                </button>
+            </div>
+            <div class="card">
+                <img src="img/instructor.jpeg" class="card_photo" alt="...">
+                <p class="card_username">Emma Wong</p>
+                <p class="card_email">emma.wong@reqres.in</p>
+                <button class="card_button">
+                    <a class="card_text" href="emma-detail.html">
+                        Review
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <div class="card-deck">
+            <div class="card">
+                <img src="img/instructor.jpeg" class="card_photo" alt="...">
+                <p class="card_username">George Bluth</p>
+                <p class="card_email">george.bluth@reqres.in</p>
+                <button class="card_button">
+                    <a class="card_text" href="george-detail.html">
+                        Review
+                    </a>
+                </button>
+            </div>
+            <div class="card">
+                <img src="img/instructor.jpeg" class="card_photo" alt="...">
+                <p class="card_username">Janet Weaver</p>
+                <p class="card_email">janet.weaver@reqres.in</p>
+                <button class="card_button">
+                    <a class="card_text" href="janet-detail.html">
+                        Review
+                    </a>
+                </button>
+            </div>
+            <div class="card">
+                <img src="img/instructor.jpeg" class="card_photo" alt="...">
+                <p class="card_username">Emma Wong</p>
+                <p class="card_email">emma.wong@reqres.in</p>
+                <button class="card_button">
+                    <a class="card_text" href="emma-detail.html">
+                        Review
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container justify-content-center mt-4 ">
+        <div class="row">
+            <button class="previous_button">
+                <i class="fas fa-angle-left"></i>
             </button>
-        </span>
-
-        <span class="card">
-            <img class="card_photo" src="img/instructor.jpeg">
-            <p class="card_username">
-                George Bluth
-            </p>
-            <p class="card_email">
-                george.bluth@regres.in
-            </p>
-            <button class="card_button">
-                <p class="card_text">
-                    Review
-                </p>
+            <button class="first_page">
+                1
             </button>
-        </span>
-
-        
-
-
-
+            <button class="second_page">
+                2
+            </button>
+            <button class="third_page">
+                3
+            </button>
+            <button class="next_button">
+                <i class="fas fa-angle-right"></i>
+            </button>
+        </div>
     </div>
 
 
-    
+    <footer>
+        <div class="footer">
+            <p class="footer_text">
+                Copyright 2021
+            </p> 
+        </div>       
+    </footer>
 
-    
 </body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+</script>
 
 </html>
