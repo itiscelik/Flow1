@@ -494,3 +494,19 @@ body {
     color: #FFFFFF;
     opacity: 0.4;
 }
+/* STARTS MEDIA QUERY */
+@media screen and (max-width: 800px) {
+    .card_username {
+        font-size: 15px;
+    }
+    .card_email {
+        font-size: 10px;
+      }
+    }
+    .card_button {
+        width: 75px;
+        height: 75px;
+    }
+    
+  
+/* ENDS MEDIA QUERY */
