@@ -314,6 +314,18 @@ body {
     opacity: 1;
 }
 
+.previous_button:active {
+    top: 1170px;
+    left: 518px;
+    width: 55px;
+    height: 55px;
+    margin-left: 430px;
+    border: 1px solid #D6DCE3;
+    border-radius: 50%;
+    background: #748EFC 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
 .previous_arrow {
     top: 1192px;
     left: 543px;
@@ -329,6 +341,7 @@ body {
     width: 55px;
     height: 55px;
     border: 1px solid #D6DCE3;
+    background: #748EFC 0% 0% no-repeat padding-box;
     border-radius: 50%;
     opacity: 1;
 }
@@ -387,6 +400,17 @@ body {
     height: 55px;
     border: 1px solid #D6DCE3;
     border-radius: 50%;
+    opacity: 1;
+}
+
+.next_button:active {
+    top: 1170px;
+    left: 868px;
+    width: 55px;
+    height: 55px;
+    border: 1px solid #D6DCE3;
+    border-radius: 50%;
+    background: #748EFC 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
